@@ -6,7 +6,6 @@ gql`
         getUsers {
             name
             email
-            password
             availability {
                 hours
             }
