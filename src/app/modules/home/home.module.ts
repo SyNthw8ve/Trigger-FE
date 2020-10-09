@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ExploreSectionComponent } from './components/explore-section/explore-section.component';
+import { ChooseSectionComponent } from './components/choose-section/choose-section.component';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
@@ -16,6 +17,11 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule,
   ],
-  declarations: [HomePageComponent, NavbarComponent, ExploreSectionComponent]
+  declarations: [
+    HomePageComponent, 
+    NavbarComponent, 
+    ExploreSectionComponent,
+    ChooseSectionComponent
+  ]
 })
-export class HomePageModule {}
+export class HomePageModule { }

@@ -1,0 +1,132 @@
+#choose-section {
+    position: absolute;
+    width: 1440px;
+    height: 567px;
+    left: 0px;
+    top: 720px;
+
+    background: white;
+}
+
+#choose-title {
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 240px;
+    top: 178px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    color: #000000;
+}
+
+#choose-description {
+    position: absolute;
+    width: 399px;
+    height: 46px;
+    left: 240px;
+    top: 234px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#know-more {
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 359px;
+    top: 343px;
+
+    /* Blue */
+
+    background: #93d0d3;
+    /* CAIXAS */
+
+    box-shadow: 0px 4px 10px 2px rgba(112, 144, 176, 0.2);
+    border-radius: 8px;
+
+    div {
+        position: absolute;
+        width: 160px;
+        height: 20px;
+        top: 10px;
+
+        /* ICONES */
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        /* White */
+
+        color: #ffffff;
+    }
+}
+
+.card {
+    position: absolute;
+
+    background: #ffffff;
+    /* Grey */
+
+    border: 2px solid #c4c4c4;
+    box-sizing: border-box;
+    /* CAIXAS */
+
+    box-shadow: 0px 4px 10px 2px rgba(112, 144, 176, 0.2);
+    border-radius: 8px;
+}
+
+#card-1 {
+
+    width: 200px;
+    height: 200px;
+    right: 400px;
+    top: 80px;
+}
+
+#card-2 {
+
+    width: 200px;
+    height: 200px;
+    right: 160px;
+    top: 41px;
+}
+
+#card-3 {
+
+    width: 200px;
+    height: 200px;
+    right: 400px;
+    top: 320px;
+}
+
+
+#card-4 {
+
+    width: 200px;
+    height: 200px;
+    right: 160px;
+    top: 281px;
+}
+
