@@ -1,0 +1,27 @@
+#popular-section {
+    position: absolute;
+    width: 1440px;
+    height: 473px;
+    top: 1287px;
+    z-index: 100;
+
+    background: var(--fundo);
+
+    border-radius: 0px;
+
+    #popular-title {
+        position: absolute;
+        width: 480px;
+        height: 104px;
+        left: 480px;
+        top: 16px;
+
+        font-size: 26px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: var(--preto);
+    }
+}

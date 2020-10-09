@@ -6,6 +6,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ExploreSectionComponent } from './components/explore-section/explore-section.component';
 import { ChooseSectionComponent } from './components/choose-section/choose-section.component';
+import { PopularSectionComponent } from './components/popular-section/popular-section.component';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
@@ -21,7 +22,8 @@ import { HomePageRoutingModule } from './home-routing.module';
     HomePageComponent, 
     NavbarComponent, 
     ExploreSectionComponent,
-    ChooseSectionComponent
+    ChooseSectionComponent,
+    PopularSectionComponent
   ]
 })
 export class HomePageModule { }
