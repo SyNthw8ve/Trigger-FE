@@ -7,6 +7,8 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { ConfirmationPageComponent } from './pages/confirmation-page/confirmation-page.component';
 
+import { MediaSectionComponent } from './components/media-section/media-section.component';
+
 import { LoginRoutingModule } from './login-routing.module';
 
 @NgModule({
@@ -14,7 +16,8 @@ import { LoginRoutingModule } from './login-routing.module';
     MainPageComponent,
     LoginPageComponent,
     RegisterPageComponent, 
-    ConfirmationPageComponent
+    ConfirmationPageComponent,
+    MediaSectionComponent
   ],
   imports: [
     CommonModule,
