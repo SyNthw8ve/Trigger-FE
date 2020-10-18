@@ -1,3 +1,25 @@
-<p>
-  confirm-form works!
-</p>
+<div>
+  <form>
+    <div class="input-group">
+      <input class="box radio-btn" type="radio" id="email" name="email" value="email">
+      <label class="common-font radio-label" for="email">E-mail</label>
+      <input class="box radio-btn" type="radio" id="phone" name="phone" value="phone">
+      <label class="common-font radio-label" for="phone">Cell Phone</label>
+    </div>
+    <div class="input-group">
+      <label class="common-font" for="phone-number">Cell Phone Number</label>
+      <div id="tel-group" class="box">
+        <select class="common-font" name="country" id="country_code">
+          <option value="PT" selected="true">PT + 351</option>
+          <option value="ES" >ES + 352</option>
+          <option value="EN" >EN + 353</option>
+        </select>
+        <input type="tel" id="phone-number" name="phone-number">
+      </div>
+      
+    </div>
+    <div class="box common-font" id="form-submit-button">
+      CONTINUE
+    </div>
+  </form>
+</div>

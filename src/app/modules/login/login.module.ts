@@ -10,6 +10,8 @@ import { ConfirmationPageComponent } from './pages/confirmation-page/confirmatio
 import { MediaSectionComponent } from './components/media-section/media-section.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { RegisterFormComponent } from './components/register-form/register-form.component';
+import { ConfirmFormComponent } from './components/confirm-form/confirm-form.component';
+import { ConfirmCodeFormComponent } from './components/confirm-code-form/confirm-code-form.component';
 
 import { LoginRoutingModule } from './login-routing.module';
 
@@ -21,7 +23,9 @@ import { LoginRoutingModule } from './login-routing.module';
     ConfirmationPageComponent,
     MediaSectionComponent,
     LoginFormComponent,
-    RegisterFormComponent
+    RegisterFormComponent,
+    ConfirmFormComponent,
+    ConfirmCodeFormComponent
   ],
   imports: [
     CommonModule,

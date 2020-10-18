@@ -19,7 +19,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
   entryComponents: [],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(),
+    IonicModule.forRoot({animated: false}),
     AppRoutingModule,
     HttpClientModule,
     HttpLinkModule],

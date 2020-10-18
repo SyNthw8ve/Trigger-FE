@@ -1,0 +1,53 @@
+@use "../../pages/main-page/main-page.component.scss";
+
+form {
+    .input-group {
+
+        label.radio-label {
+            display: inline-block;
+            margin-right: 40px;
+            height: 52px;
+            vertical-align: middle;
+        }
+
+        input.radio-btn {
+            display: inline-block;
+            width: 52px;
+            height: 52px;
+            margin-right: 18px;
+
+            border: 1px solid var(--fundo);
+            box-sizing: border-box;
+            appearance: none;
+        }
+
+        #tel-group {
+
+            height: 52px;
+            width: 400px;
+
+            input {
+
+                display: inline-block;
+                width: 290px;
+                border-left: 1px solid var(--grey);
+            }
+
+            select {
+
+                display: inline-block;
+                width: 110px;
+                height: 52px;
+                border: none;
+                appearance: none;
+                background: url('../../../../../assets/icons/SVG/SVG/SVG/Seta\ cinzenta.svg') no-repeat;
+                background-size: 16px 8px;
+                background-position: 85px center;
+
+
+                color: #868686;
+                text-indent: 14px;
+            }
+        }
+    }
+}
