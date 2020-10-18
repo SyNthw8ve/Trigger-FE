@@ -9,6 +9,7 @@ import { ConfirmationPageComponent } from './pages/confirmation-page/confirmatio
 
 import { MediaSectionComponent } from './components/media-section/media-section.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
+import { RegisterFormComponent } from './components/register-form/register-form.component';
 
 import { LoginRoutingModule } from './login-routing.module';
 
@@ -19,7 +20,8 @@ import { LoginRoutingModule } from './login-routing.module';
     RegisterPageComponent, 
     ConfirmationPageComponent,
     MediaSectionComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    RegisterFormComponent
   ],
   imports: [
     CommonModule,

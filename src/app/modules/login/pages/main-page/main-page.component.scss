@@ -57,7 +57,7 @@ form {
         margin-bottom: 30px;
 
         label {
-            width: 188px;
+            width: 300px;
             height: 40px;
             display: block;
 
@@ -72,8 +72,13 @@ form {
             width: 400px;
             height: 52px;
             border: none;
+            text-indent: 14px;
 
             color: var(--preto);
+        }
+
+        ::placeholder {
+            color: var(--grey);
         }
     }
 
