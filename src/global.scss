@@ -27,12 +27,16 @@
 
 
 body, html {
-    background: #efefef !important;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100%;
     z-index: -1 !important;
+}
+
+ion-content{
+
+    --ion-background-color: var(--branco);
 }
 
 a {

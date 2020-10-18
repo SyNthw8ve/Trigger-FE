@@ -1,0 +1,98 @@
+ion-grid {
+    height: 100%;
+    padding: 0;
+
+    ion-row {
+        height: 100%;
+
+        ion-col {
+            padding: 0;
+            height: 100%;
+        }
+    }
+}
+
+#form-header {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    #form-logo {
+        width: 150px;
+        height: 33px;
+
+        background: url("../../../../../assets/trigger_logo.png");
+    }
+
+    #form-title {
+        width: 188px;
+        height: 40px;
+        margin-top: 52px;
+
+        font-size: 18px;
+        line-height: 21px;
+
+        color: var(--azul);
+    }
+
+    #form-text {
+        font-size: 13px;
+        line-height: 15px;
+        width: 399px;
+        height: 46px;
+
+        color: var(--preto);
+    }
+}
+
+#form-body {
+    margin: auto;
+    margin-top: 20px;
+}
+
+form {
+    display: block;
+
+    .input-group {
+        margin-bottom: 30px;
+
+        label {
+            width: 188px;
+            height: 40px;
+            display: block;
+
+            font-size: 15px;
+            line-height: 18px;
+
+            color: var(--grey);
+        }
+
+        input {
+            display: block;
+            width: 400px;
+            height: 52px;
+            border: none;
+
+            color: var(--preto);
+        }
+    }
+
+    #form-submit-button {
+        width: 400px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: var(--azul);
+
+        border: 1px solid var(--azul);
+        box-sizing: border-box;
+
+        font-size: 18px;
+        line-height: 21px;
+
+        color: var(--branco);
+        cursor: pointer;
+    }
+}

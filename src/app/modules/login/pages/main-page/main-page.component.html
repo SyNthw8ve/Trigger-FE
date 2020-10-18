@@ -1,3 +1,14 @@
-<ion-content overflow-scroll="true">
-  <app-media-section></app-media-section>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+          <app-media-section></app-media-section>
+      </ion-col>
+      <ion-col size="6">
+        <ion-router-outlet></ion-router-outlet>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+
+

@@ -1,0 +1,28 @@
+@use "../../pages/main-page/main-page.component.scss";
+
+#helper-buttons {
+    width: 400px;
+    height: 15px;
+    margin-top: 20px;
+
+    a {
+        height: 40px;
+
+        font-size: 15px;
+        line-height: 18px;
+
+        color: var(--grey);
+    }
+
+    #register-btn {
+        float: right;
+
+        span {
+            color: var(--azul);
+        }
+    }
+
+    #forgot-btn {
+        float: left;
+    }
+}

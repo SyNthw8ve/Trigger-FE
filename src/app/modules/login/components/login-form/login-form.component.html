@@ -1,3 +1,19 @@
-<p>
-  login-form works!
-</p>
+<div>
+    <form>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input class="box" id="email" type="email" />
+        </div>
+        <div class="input-group">
+            <label for="pass">Password</label>
+            <input class="box" id="pass" type="password" />
+        </div>
+        <div class="box common-font" id="form-submit-button">
+            LOGIN
+        </div>
+        <div id="helper-buttons">
+            <a id="forgot-btn">Forgot password?</a>
+            <a routerLink="/signin/register" id="register-btn">Not on Trigger? <span>Register</span></a>
+        </div>
+    </form>
+</div>
