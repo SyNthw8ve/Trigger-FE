@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router"
+import { Router } from "@angular/router"
 import { FormGroup, FormControl } from '@angular/forms';
 import { AuthService } from '../../../../core/services/auth.service';
 
@@ -29,13 +29,12 @@ export class LoginFormComponent implements OnInit {
     const loginData: UserValidation = this.loginForm.value;
 
     this.authService.authUser(loginData).subscribe(({ data }) => {
-    
+
       const authResult: AuthResult = data['loginEmail'];
-      
+
       if (authResult.success) {
 
-        
-        this.router.navigate(['/user/profile']);
+        this.router.navigate(['/user/main']);
       }
 
     }, (error) => {

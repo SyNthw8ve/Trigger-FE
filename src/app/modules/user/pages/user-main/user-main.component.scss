@@ -1,0 +1,23 @@
+ion-content {
+
+    --ion-background-color: var(--fundo);
+}
+
+ion-grid {
+    height: 100%;
+    padding: 0;
+
+    ion-row {
+        height: 100%;
+
+        ion-col {
+            padding: 0;
+            height: 100%;
+        }
+    }
+
+    #main-section {
+
+        height: 20px;
+    }
+}
