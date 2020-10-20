@@ -34,7 +34,7 @@ export class LoginFormComponent implements OnInit {
 
       if (authResult.success) {
 
-        this.router.navigate(['/user/main']);
+        this.router.navigate(['/user/user-profile']);
       }
 
     }, (error) => {

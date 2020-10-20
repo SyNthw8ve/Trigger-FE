@@ -18,7 +18,7 @@ export class LoggedGuard implements CanActivate {
 
     else {
 
-      this.router.navigate(['/user/main']);
+      this.router.navigate(['/user/user-profile']);
       return false;
     }
   }

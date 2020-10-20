@@ -1,0 +1,76 @@
+ion-grid {
+    height: 100%;
+    padding: 0;
+
+    ion-row {
+        height: 100%;
+
+        ion-col {
+            padding: 0;
+            height: 100%;
+        }
+    }
+}
+
+form {
+
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+
+    .input-group {
+
+        width: 320px;
+        height: 40px;
+        background-color: var(--branco);
+
+        ::placeholder {
+            color: var(--grey);
+            font-size: 13px;
+            font-weight: 400;
+        }
+
+        #search-group {
+
+            input {
+                display: inline-block;
+
+                width: 220px;
+                height: 40px;
+
+                background: url("../../../../../assets/icons/SVG/SVG/SVG/Pesquisa.svg") no-repeat;
+                background-size: 26px 26px;
+                background-position: 8px center;
+
+                border-radius: 7px 0px 0px 7px;
+                border: none;
+                border-right: 1px solid var(--grey);
+
+                text-indent: 40px;
+                font-weight: normal;
+                font-size: 13px;
+                color: var(--preto);
+
+                vertical-align: top;
+            }
+
+            select {
+                display: inline-block;
+                width: 100px;
+                height: 40px;
+                border: none;
+                appearance: none;
+                line-height: 15.23px;
+                vertical-align: top;
+                font-weight: 500;
+                font-size: 13px;
+                background: url("../../../../../assets/icons/SVG/SVG/SVG/Seta\ cinzenta.svg") no-repeat;
+                background-size: 13px 7px;
+                background-position: 77px center;
+
+                color: var(--dark-grey);
+                text-indent: 14px;
+            }
+        }
+    }
+}
