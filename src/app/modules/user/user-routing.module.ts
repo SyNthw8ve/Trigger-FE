@@ -16,7 +16,7 @@ const routes: Routes = [
 
       {
         path: 'user-profile',
-        component: UserProfileComponent
+        component: UserProfileComponent,
       },
       {
         path: 'user-dashboard',
@@ -30,7 +30,8 @@ const routes: Routes = [
         path: 'user-notification-recommendations',
         component: UserNotificationRecommendationsComponent
       }
-    ]
+    ],
+    
   }
 ];
 
