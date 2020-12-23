@@ -1,0 +1,54 @@
+
+p.sub-section-title {
+
+    font-size: 18px;
+    color: var(--dark-grey);
+}
+
+.sub-section {
+
+    margin-top: 43px;
+}
+
+table {
+
+    width: 960px;
+    font-size: 14px;
+    color: var(--dark-grey);
+    text-align: center;
+
+    tbody {
+
+        background-color: var(--branco);
+    }
+    
+    th {
+
+        padding-bottom: 0px;
+    }
+
+    th.header {
+
+        font-weight: 500;
+    }
+
+    th.sub-header {
+
+        padding-top: 0px;
+        padding-bottom: 5.76px;
+        font-weight: normal;
+    }
+    
+    td {
+
+        color: var(--azul);
+    }
+
+    td.language-name {
+
+        text-align: left;
+        padding-left: 26px;
+    }
+
+}
+

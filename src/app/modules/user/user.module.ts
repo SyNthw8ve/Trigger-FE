@@ -5,11 +5,17 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { UserProfileComponent } from './pages/user-profile/user-profile.component';
 import { UserMainComponent } from './pages/user-main/user-main.component';
 import { PresentationSectionComponent } from './components/profile/presentation-section/presentation-section.component';
+import { InformationSectionComponent } from './components/profile/information-section/information-section.component';
 
 import { UserRoutingModule } from './user-routing.module';
 
 @NgModule({
-  declarations: [UserMainComponent, UserProfileComponent, PresentationSectionComponent],
+  declarations: [
+    UserMainComponent, 
+    UserProfileComponent, 
+    PresentationSectionComponent, 
+    InformationSectionComponent
+  ],
   imports: [
     CommonModule,
     UserRoutingModule,
