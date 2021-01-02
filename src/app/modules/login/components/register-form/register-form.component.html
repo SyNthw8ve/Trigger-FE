@@ -1,19 +1,19 @@
 <div>
-  <form>
-      <div class="input-group">
-          <label class="common-font" for="email">Email</label>
-          <input class="box" id="email" type="email" />
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="input-group-trigger">
+          <label class="common-font" for="email">E-mail</label>
+          <input class="box" id="email" type="email" formControlName="email" required/>
       </div>
-      <div class="input-group">
+      <div class="input-group-trigger">
           <label class="common-font" for="pass">Password</label>
-          <input class="box" id="pass" type="password" />
+          <input class="box" id="pass" type="password" formControlName="password" required/>
       </div>
-      <div class="input-group">
+      <div class="input-group-trigger">
         <label class="common-font" for="url">Do you have a link to register?</label>
-        <input class="box" id="url" type="url" placeholder="If not, ignore!"/>
+        <input class="box" id="url" type="url" placeholder="If not ignore it" formControlName="emailCode"/>
     </div>
-      <div routerLink="/signin/confirm" class="box common-font" id="form-submit-button">
+      <button type="submit" class="box common-font" id="form-submit-button">
           REGISTER
-      </div>
+      </button>
   </form>
 </div>

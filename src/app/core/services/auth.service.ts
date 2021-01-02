@@ -3,8 +3,11 @@ import { Apollo } from 'apollo-angular';
 
 import { UserValidation } from '../../shared/dtos/user-validation.dto';
 import { AuthResult } from '../../shared/dtos/auth-results.dto';
+import { RegisterEmailUserDto } from '../../shared/dtos/register-email-user.dto';
 
 import { authUser } from '../graphql/mutations/login.mutation';
+import { registerUser } from '../graphql/mutations/register.mutation';
+
 import { tap } from 'rxjs/operators';
 
 import * as moment from 'moment';
@@ -26,6 +29,16 @@ export class AuthService {
         user: userData
       }
     }).pipe(tap(res => this.set_session(res.data["loginEmail"])));
+  }
+
+  registerUser(userData: RegisterEmailUserDto) {
+
+    return this.apollo.mutate({
+      mutation: registerUser,
+      variables: {
+        user: userData
+      }
+    })
   }
 
   private set_session(authResult: AuthResult) {
