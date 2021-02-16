@@ -37,9 +37,19 @@
               },
               {
                 "input": "src/global.scss"
+              },
+              {
+                "input": "node_modules/bootstrap/dist/css/bootstrap.css"
               }
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "input": "node_modules/bootstrap/dist/js/bootstrap.js"
+              },
+              {
+                "input": "node_modules/jquery/dist/jquery.js"
+              }
+            ]
           },
           "configurations": {
             "production": {

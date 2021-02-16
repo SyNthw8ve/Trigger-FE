@@ -1,69 +1,62 @@
-
-.sub-section {
-
-    margin-top: 43px;
-
-    .sub-section-title {
-
-        font-size: 18px;
-        color: var(--dark-grey);
-    }
+.caixa-2 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    top: 160px !important;
+    display: block;
 }
 
-#interests-wrapper {
-
-    display: flex;
-    flex-wrap: wrap;
-   
-    .badge {
-
-        background-color: var(--dark-grey);
-        height: 82px;
-        margin-right: 15px;
-    }
-    
+.caixa-timeline {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    display: block;
+    background-color: var(--transparente) !important;
 }
 
-
-table {
-
-    width: 960px;
-    font-size: 14px;
-    color: var(--dark-grey);
+.hori-timeline .events {
+    border-top: 3px solid var(--azul);
+}
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
     text-align: center;
-
-    tbody {
-
-        background-color: var(--branco);
-    }
-    
-    th {
-
-        padding-bottom: 0px;
-    }
-
-    th.header {
-
-        font-weight: 500;
-    }
-
-    th.sub-header {
-
-        padding-top: 0px;
-        padding-bottom: 5.76px;
-        font-weight: normal;
-    }
-    
-    td {
-
-        color: var(--azul);
-    }
-
-    td.language-name {
-
-        text-align: left;
-        padding-left: 26px;
-    }
-
+    padding-top: 70px;
+    margin-right: 0;
 }
 
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 2px 4px;
+}
+
+@media (min-width: 1140px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hori-timeline .events {
+        border-top: 0px;
+    }
+}
+
+.fundo-timeline {
+    background-color: var(--azul) !important;
+}
+.card {
+    border: none;
+}

@@ -1,21 +1,10 @@
-<ion-content overflow-scroll="true">
-  <ion-grid>
-    <ion-row>
-      <ion-col size="2">
-        <app-left-section></app-left-section>
-      </ion-col>
-      <ion-col size="10">
-        <ion-grid>
-          <ion-row id="main-section">
-            <ion-col size="12">
-              <app-main-section></app-main-section>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-              <ion-router-outlet></ion-router-outlet>
-          </ion-row>
-        </ion-grid>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
-</ion-content>
+<div class="d-flex" id="wrapper">
+  <app-left-section></app-left-section>
+
+  <div id="page-content-wrapper">
+
+    <app-main-section></app-main-section>
+
+    <router-outlet></router-outlet>
+  </div>
+</div>
